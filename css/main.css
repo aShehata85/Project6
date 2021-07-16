@@ -1,0 +1,119 @@
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--bs-info);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--bs-grey-dark);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: var(--bs-info);
+    color: var(--bs-light);
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+/* slider */
+.slider {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+
+.slider .opacity {
+    background-color: var(--bs-gray-dark);
+    opacity: 0.75;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider .heading h3,
+.slider .heading h1 {
+    color: var(--bs-light);
+}
+
+.slider .heading h3 {
+    font-size: 20px;
+}
+
+.slider .heading h1 {
+    font-size: 50px;
+}
+
+.read-more .preview,
+.read-more .get-theme {
+    padding: 1% 5%;
+}
+
+.read-more .preview {
+    background-color: transparent;
+    border: 2px solid var(--bs-light);
+}
+
+.read-more .get-theme {
+    background-color: var(--bs-info);
+    color: var(--bs-light);
+    border: 2px solid var(--bs-info);
+}
+
+article {
+    background-color: lightgray
+}
+
+.all .idea,
+.all .work,
+.all .deliver {
+    background-color: var(--bs-light);
+}
+
+.all .idea img,
+.all .work img,
+.all .deliver img {
+    height: 8vh;
+    border-bottom: 2px solid var(--bs-info);
+    padding: 2% 0;
+}
+
+.all .idea .heading h3,
+.all .work .heading h3,
+.all .deliver .heading h3 {
+    padding: 2% 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--bs-grey-dark);
+}
+
+section .title {
+    margin: 5%;
+}
+
+section .intro {
+    padding: 0% 18%;
+    margin: 56px;
+}
+
+section .founder {
+    color: var(--bs-secondary);
+}
+
+.brand {
+    margin: 10% 10% 0% 10%;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: var(--bs-cyan);
+    height: 10vh;
+    padding-top: 1%;
+}
+
+footer p,
+footer i {
+    color: var(--bs-light);
+}
